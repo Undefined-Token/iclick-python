@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="iclick-auto",
-    version="1.0.0",
+    version="1.0.1",
     author="iClick",
     author_email="try.catch@foxmail.com",
     description="iClick Automation Tool Without Jailbreak Python Package.",

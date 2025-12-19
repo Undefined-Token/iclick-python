@@ -5,7 +5,7 @@
 
 [English](README.en.md) | 中文
 
-用于iOS免越狱自动化的 Python SDK。除了 API 调用功能外，还实现了断线重连和事件监听机制。
+用于iOS免越狱自动化的 Python SDK。除了 API 调用功能外，实现了断线重连和事件监听机制以及二进制meta数据包解析。
 
 官方网站: https://iosclick.com/
 
