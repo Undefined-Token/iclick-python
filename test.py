@@ -1,3 +1,7 @@
+# 测试已发布的 iclick-auto 包
+# 安装: pip install iclick-auto
+# 导入: from iclick import client as iclient
+
 from iclick import client as iclient
 import time
 
@@ -30,6 +34,18 @@ def test():
     })
     print('sendKey 调用结果:', result)
 
+    # 测试 getScreenShot 命令
+    print('测试 getScreenShot 命令...')
+    screenshot_result = client.invoke("getScreenShot", {
+        'deviceId': 'P60904DC8D3F'
+    })
+    
+    # 如果返回的是二进制数据，直接保存到文件
+    if screenshot_result:
+        with open('screenshot.png', 'wb') as f:
+            f.write(screenshot_result)
+        print('截图已保存到 screenshot.png (直接二进制)')
+    
     # client.destroy()
     
     print('客户端已销毁')
