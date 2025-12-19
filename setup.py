@@ -7,6 +7,7 @@ setup(
     name="iclick-auto",
     version="1.0.0",
     author="iClick",
+    author_email="try.catch@foxmail.com",
     description="iClick Automation Tool Without Jailbreak Python Package.",
     long_description=long_description,
     long_description_content_type="text/markdown",

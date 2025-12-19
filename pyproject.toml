@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.7"
 license = {text = "MIT"}
 authors = [
-    {name = "iClick"}
+    {name = "iClick", email = "try.catch@foxmail.com"}
 ]
 keywords = ["IOS", "Automation", "Without Jailbreak"]
 classifiers = [
